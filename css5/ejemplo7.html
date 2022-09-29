@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Múltiples fondos</title>
+    <style type="text/css">
+        div.fondo
+        {
+            background-image: url(logo.png), url(oceano.jpg);
+            background-position: bottom right, 100% center;
+            background-origin: border-box, content-box;
+            background-repeat: no-repeat, repeat;
+        }
+        div.contenido
+        {
+            padding: 10px 15px;
+            color: white;
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <div class="fondo">
+        <div class="contenido">
+            <p>
+                Deitel & Associates, Inc. es una empresa reconocida a nivel mundial, dedicada al entrenamiento corporativo y la creación de contenido. La empresa ofrece cursos impartidos por instructores en los sitios de los clientes en todo el mundo sobre lenguajes de programación y otros temas de software como C++, Visual C++ <sup>&reg;</sup>, C, Java&trade;, C#,<sup>&reg;</sup>, Visual Basic<sup>&reg;</sup>, Objective-C<sup>&reg;</sup>, CML<sup>&reg;</sup>, Phyton<sup>&reg;</sup>, JavaScript, tecnología de objetos, programación en Internet y web y desarrollo de aplicaciones para Android y iPhone.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

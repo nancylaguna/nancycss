@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusión de imágenes</title>
+    <style type="text/css">
+        #portada 
+        {
+            position: relative;
+            margin: 0 auto;
+        }
+        #portada img
+        {
+            position: absolute;
+            left: 0;
+            -webkit-transition: opacity 4s ease-in-out;
+            transition: opacity 4s ease-in-out;
+        }
+        #portada img.top:hover
+        {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="portada">
+        <img class="bottom" src="jhtp.jpg" alt="Portada de Java 9e">
+        <img class="top" src="cpphtp.jpg" alt="Portada de Java 8e">
+    </div>
+</body>
+</html>

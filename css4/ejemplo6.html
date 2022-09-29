@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento relativo</title>
+    <style type="text/css">
+        p 
+        {
+            font-size: 1.3em;
+            font-family: verdana, arial, sans-serif;
+        }
+        span 
+        {
+            color: red;
+            font-size: .6em;
+            height: 1em;
+        }
+        .super 
+        {
+            position:relative;
+            top: -lex;
+        }
+        .sub 
+        {
+            position:relative;
+            bottom: -lex;
+        }
+        .desplizq 
+        {
+            position:relative;
+            left: -lex;
+        }
+        .desplder 
+        {
+            position:relative;
+            right:-lex;
+        }
+    </style>
+</head>
+<body>
+    <p>El texto al final de esta oración
+        <span class="super">está en superíndice</span>.
+    </p>
+    <p>El texto al final de esta oración
+        <span class="sub">está en superíndice</span>.
+    </p>
+    <p>El texto al final de esta oración
+        <span class="desplizq">está desplazado a la izquierda</span>.
+    </p>
+    <p>El texto al final de esta oración
+        <span class="desplder">está desplazado a la derecha</span>.
+    </p>
+</body>
+</html>
