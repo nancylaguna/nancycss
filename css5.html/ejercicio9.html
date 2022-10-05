@@ -17,24 +17,37 @@
         }
         #portada img
         {
+            width: 50rem;
+            height: 60rem;
             position: absolute;
             left: 0;
-            -webkit-transition: opacity 4s ease-in-out;
             transition: opacity 3s linear;
         }
-        #portada img.top:hover
+        .bebe:hover
         {
+            opacity: 0;
+        }
+        .niño:hover{
+            opacity: 0;
+        }
+        .adolescente:hover{
+            opacity: 0;
+        }
+        .adulto:hover{
+            opacity: 0;
+        }
+        .viejito:hover{
             opacity: 0;
         }
     </style>
 </head>
 <body>
     <div id="portada">
-        <img class="bottom" src="edad5.jpg" alt="Viejito">
-        <img class="top" src="edad4.jpg" alt="Adulto">
-        <img class="top" src="edad3.jpg" alt="Adolescente">
-        <img class="top" src="edad2.jpg" alt="Niño">
-        <img class="top" src="edad1.jpg" alt="Bebé">
+        <img class="bebe" src="edad5.jpg" alt="Viejito">
+        <img class="niño" src="edad4.jpg" alt="Adulto">
+        <img class="adolescente" src="edad3.jpg" alt="Adolescente">
+        <img class="adulto" src="edad2.jpg" alt="Niño">
+        <img class="viejito" src="edad1.jpg" alt="Bebé">
     </div>
 </body>
 </html>
