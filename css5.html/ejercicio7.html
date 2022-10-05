@@ -8,9 +8,10 @@
         <img src="botonregresar.png" width="120"
         height="50" alt="Regresar">
     </a>
+    <br>
     <title>Animacion</title>
     <style type="text/css">
-    img 
+    #img 
         {
             position: relative;
             -webkit-animation: movingimage linear 10s  1s 2 alternate;
@@ -25,14 +26,7 @@
             75% {opacity: 1; left: 100px; top: 50px;}
             100% {opacity: 0; left: 50px; top: 0px;}
         }
-        @-moz-keyframes movingimage
-        {
-            0% {opacity: 0; left: 50px; top:0px;}
-            25% {opacity: 1; left: 0px; top: 50px;}
-            50% {opacity: 0; left: 50px; top: 100px;}
-            75% {opacity: 1; left: 100px; top: 50px;}
-            100% {opacity: 0; left: 50px; top: 0px;}
-        }
+        
         @keyframes movingimage
         {
             0% {opacity: 0; left: 50px; top:0px;}
@@ -44,7 +38,7 @@
     </style>
 </head>
 <body>
-    <img src="oceano.jpg" width="138" height="180" alt="Oceano">
+    <img id="img" src="oceano.jpg" width="138" height="180" alt="Oceano">
     <div></div>
 </body>
 </html>
